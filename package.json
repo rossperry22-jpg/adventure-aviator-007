@@ -1,0 +1,31 @@
+{
+  "name": "adventure-aviator-007",
+  "version": "1.0.0",
+  "description": "Adventure Aviator: The Blue Book - Comprehensive flight school ground course with 007 theme fusion",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'No build step required for static site'",
+    "test": "echo 'No tests specified'",
+    "deploy": "gh-pages -d ."
+  },
+  "keywords": [
+    "aviation",
+    "flight-training",
+    "ground-school",
+    "pilot-training",
+    "faa",
+    "checkride",
+    "007",
+    "education"
+  ],
+  "author": "Adventure Aviator Team",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.0.0",
+    "gh-pages": "^5.0.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.0"
+  }
+}
