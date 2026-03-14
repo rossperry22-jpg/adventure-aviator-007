@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3D Flight Visualization - Adventure Aviator</title>
+    <style>
+        body { 
+            margin: 0; 
+            overflow: hidden; 
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #0a192f 0%, #1a365d 100%);
+        }
+        
+        #container { 
+            width: 100vw; 
+            height: 100vh; 
+        }
+        
+        #info { 
+            position: absolute; 
+            top: 20px; 
+            left: 20px; 
+            color: white; 
+            background: rgba(0, 40, 85, 0.8); 
+            padding: 20px; 
+            border-radius: 10px;
+            border: 1px solid rgba(0, 119, 182, 0.5);
+            backdrop-filter: blur(10px);
+            max-width: 300px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        #info h3 {
+            margin: 0 0 15px 0;
+            color: #00b4d8;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 700;
+        }
+        
+        #controls {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .view-btn {
+            padding: 10px 15px;
+            background: rgba(0, 119, 182, 0.7);
+            border: 1px solid rgba(0, 180, 216, 0.5);
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+        }
+        
+        .view-btn:hover {
+            background: rgba(0, 180, 216, 0.9);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 180, 216, 0.3);
+        }
+        
+        .view-btn.active {
+            background: rgba(0, 180, 216, 1);
+            border-color: #90e0ef;
+            box-shadow: 0 0 15px rgba(0, 180, 216, 0.5);
+        }
+        
+        #status {
+            margin-top: 15px;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+            font-size: 14px;
+            color: #90e0ef;
+        }
+        
+        .instrument-panel {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid rgba(0, 119, 182, 0.5);
+            display: flex;
+            gap: 20px;
+            color: white;
+            font-family: 'Orbitron', monospace;
+        }
+        
+        .instrument {
+            text-align: center;
+        }
+        
+        .instrument-label {
+            font-size: 12px;
+            color: #90e0ef;
+            margin-bottom: 5px;
+        }
+        
+        .instrument-value {
+            font-size: 18px;
+            font-weight: bold;
+            color: #00ff88;
+        }
+        
+        .instrument-unit {
+            font-size: 12px;
+            color: #cccccc;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container"></div>
+    
+    <div id="info">
+        <h3><i class="fas fa-plane"></i> 3D Flight Visualization</h3>
+        <p>Interactive 3D aircraft visualization for flight training and spatial awareness.</p>
+        
+        <div id="controls">
+            <button class="view-btn active" onclick="switchView('cockpit')">
+                <i class="fas fa-eye"></i> Cockpit View
+            </button>
+            <button class="view-btn" onclick="switchView('external')">
+                <i class="fas fa-external-link-alt"></i> External View
+            </button>
+            <button class="view-btn" onclick="switchView('chase')">
+                <i class="fas fa-running"></i> Chase View
+            </button>
+            <button class="view-btn" onclick="switchView('top')">
+                <i class="fas fa-satellite"></i> Top View
+            </button>
+        </div>
+        
+        <div id="status">
+            <div><strong>Aircraft:</strong> Cessna 172</div>
+            <div><strong>View:</strong> Cockpit</div>
+            <div><strong>Controls:</strong> Mouse drag to rotate, Scroll to zoom</div>
+        </div>
+    </div>
+    
+    <div class="instrument-panel">
+        <div class="instrument">
+            <div class="instrument-label">AIRSPEED</div>
+            <div class="instrument-value">85</div>
+            <div class="instrument-unit">kts</div>
+        </div>
+        <div class="instrument">
+            <div class="instrument-label">ALTITUDE</div>
+            <div class="instrument-value">3500</div>
+            <div class="instrument-unit">ft</div>
+        </div>
+        <div class="instrument">
+            <div class="instrument-label">HEADING</div>
+            <div class="instrument-value">270</div>
+            <div class="instrument-unit">°</div>
+        </div>
+        <div class="instrument">
+            <div class="instrument-label">VERT SPEED</div>
+            <div class="instrument-value">+200</div>
+            <div class="instrument-unit">fpm</div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script src="js/aircraft-viewer.js"></script>
+</body>
+</html>

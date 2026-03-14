@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Aviator: The Blue Book</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <!-- Mission Control Header -->
+    <header class="mission-control">
+        <div class="container">
+            <div class="logo-section">
+                <div class="logo-container">
+                    <img src="assets/logo.png" alt="Adventure Aviator Logo" class="logo">
+                    <div class="logo-text">
+                        <h1>ADVENTURE <span class="blue-text">AVIATOR</span></h1>
+                        <p class="subtitle">THE BLUE BOOK • MISSION 007</p>
+                    </div>
+                </div>
+                <div class="mission-status">
+                    <div class="status-indicator active"></div>
+                    <span class="status-text">MISSION: ACTIVE</span>
+                    <div class="time-display" id="mission-time">00:00:00 UTC</div>
+                </div>
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#briefing" class="nav-link active"><i class="fas fa-briefcase"></i> Briefing Room</a></li>
+                    <li><a href="#modules" class="nav-link"><i class="fas fa-layer-group"></i> Modules</a></li>
+                    <li><a href="#training" class="nav-link"><i class="fas fa-jet-fighter-up"></i> Training</a></li>
+                    <li><a href="#intel" class="nav-link"><i class="fas fa-chart-line"></i> Intelligence</a></li>
+                    <li><a href="#debrief" class="nav-link"><i class="fas fa-clipboard-check"></i> Debrief</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Mission Briefing Section -->
+        <section id="briefing" class="mission-section">
+            <div class="section-header">
+                <h2><i class="fas fa-satellite-dish"></i> MISSION BRIEFING</h2>
+                <div class="security-clearance">CLEARANCE LEVEL: <span class="clearance-level">ALPHA</span></div>
+            </div>
+            
+            <div class="briefing-content">
+                <div class="briefing-card">
+                    <div class="card-header">
+                        <h3><i class="fas fa-crosshairs"></i> PRIMARY OBJECTIVE</h3>
+                        <div class="card-id">ID: AA-007-001</div>
+                    </div>
+                    <div class="card-body">
+                        <p>Transform student pilots into mission-ready aviators through 8 intelligence modules covering every facet of aviation. Master 336 questions with daily rotation of 48 questions to ensure comprehensive knowledge retention.</p>
+                        <div class="objective-stats">
+                            <div class="stat">
+                                <div class="stat-value">8</div>
+                                <div class="stat-label">Modules</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-value">336</div>
+                                <div class="stat-label">Questions</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-value">48</div>
+                                <div class="stat-label">Daily Rotation</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-value">100%</div>
+                                <div class="stat-label">Checkride Ready</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="briefing-card">
+                    <div class="card-header">
+                        <h3><i class="fas fa-shield-alt"></i> SAFETY PROTOCOL</h3>
+                        <div class="card-id">ID: AA-007-002</div>
+                    </div>
+                    <div class="card-body">
+                        <p>All training materials are FAA ACS-compliant with integrated IMSAFE and ADM frameworks. Emergency procedures are woven into every module to build instinctual responses.</p>
+                        <ul class="protocol-list">
+                            <li><i class="fas fa-check-circle"></i> FAA ACS Alignment</li>
+                            <li><i class="fas fa-check-circle"></i> IMSAFE Integration</li>
+                            <li><i class="fas fa-check-circle"></i> ADM Framework</li>
+                            <li><i class="fas fa-check-circle"></i> Emergency Procedure Drills</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="briefing-card full-width">
+                    <div class="card-header">
+                        <h3><i class="fas fa-play-circle"></i> QUICK START</h3>
+                        <div class="card-id">ID: AA-007-003</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="quick-start-grid">
+                            <a href="#modules" class="start-option">
+                                <div class="option-icon">
+                                    <i class="fas fa-rocket"></i>
+                                </div>
+                                <h4>Begin Mission</h4>
+                                <p>Start with Module 00: The Briefing Room</p>
+                            </a>
+                            <a href="#training" class="start-option">
+                                <div class="option-icon">
+                                    <i class="fas fa-jet-fighter"></i>
+                                </div>
+                                <h4>Daily Training</h4>
+                                <p>48 questions from today's rotation</p>
+                            </a>
+                            <a href="#intel" class="start-option">
+                                <div class="option-icon">
+                                    <i class="fas fa-chart-bar"></i>
+                                </div>
+                                <h4>Progress Intel</h4>
+                                <p>View your mission performance</p>
+                            </a>
+                            <a href="#debrief" class="start-option">
+                                <div class="option-icon">
+                                    <i class="fas fa-file-alt"></i>
+                                </div>
+                                <h4>Mission Debrief</h4>
+                                <p>Review completed modules</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modules Section -->
+        <section id="modules" class="mission-section">
+            <div class="section-header">
+                <h2><i class="fas fa-layer-group"></i> INTELLIGENCE MODULES</h2>
+                <div class="module-counter">8 MODULES • 336 QUESTIONS</div>
+            </div>
+            
+            <div class="modules-grid" id="modules-container">
+                <!-- Modules will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <!-- Daily Training Section -->
+        <section id="training" class="mission-section">
+            <div class="section-header">
+                <h2><i class="fas fa-jet-fighter-up"></i> DAILY TRAINING</h2>
+                <div class="daily-counter">
+                    <span id="daily-count">48</span> QUESTIONS TODAY
+                </div>
+            </div>
+            
+            <div class="training-container">
+                <div class="training-card">
+                    <div class="training-header">
+                        <h3><i class="fas fa-sync-alt"></i> QUESTION ROTATION SYSTEM</h3>
+                        <div class="rotation-info">
+                            <span class="rotation-label">TODAY'S ROTATION:</span>
+                            <span class="rotation-value" id="rotation-day">Day 1</span>
+                        </div>
+                    </div>
+                    
+                    <div class="training-content">
+                        <div class="rotation-explanation">
+                            <p>The system rotates through 336 questions across 7 days, presenting 48 questions daily. This ensures comprehensive coverage while preventing pattern memorization.</p>
+                            <div class="rotation-stats">
+                                <div class="rotation-stat">
+                                    <div class="stat-number">336</div>
+                                    <div class="stat-desc">Total Questions</div>
+                                </div>
+                                <div class="rotation-stat">
+                                    <div class="stat-number">48</div>
+                                    <div class="stat-desc">Daily Questions</div>
+                                </div>
+                                <div class="rotation-stat">
+                                    <div class="stat-number">7</div>
+                                    <div class="stat-desc">Day Cycle</div>
+                                </div>
+                                <div class="rotation-stat">
+                                    <div class="stat-number">100%</div>
+                                    <div class="stat-desc">Coverage Weekly</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="start-training">
+                            <button id="start-training-btn" class="mission-btn">
+                                <i class="fas fa-play"></i> BEGIN TODAY'S TRAINING
+                            </button>
+                            <p class="training-note">48 questions • Estimated time: 60 minutes</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="progress-card">
+                    <h3><i class="fas fa-chart-line"></i> TRAINING PROGRESS</h3>
+                    <div class="progress-chart">
+                        <canvas id="progressChart" width="400" height="200"></canvas>
+                    </div>
+                    <div class="progress-stats">
+                        <div class="progress-stat">
+                            <div class="stat-label">Today's Score</div>
+                            <div class="stat-value" id="today-score">--</div>
+                        </div>
+                        <div class="progress-stat">
+                            <div class="stat-label">Weekly Average</div>
+                            <div class="stat-value" id="weekly-average">--</div>
+                        </div>
+                        <div class="progress-stat">
+                            <div class="stat-label">Questions Mastered</div>
+                            <div class="stat-value" id="questions-mastered">0/336</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Intelligence Dashboard -->
+        <section id="intel" class="mission-section">
+            <div class="section-header">
+                <h2><i class="fas fa-chart-line"></i> INTELLIGENCE DASHBOARD</h2>
+                <div class="intel-status">LIVE ANALYTICS • REAL-TIME UPDATES</div>
+            </div>
+            
+            <div class="dashboard-grid">
+                <div class="dashboard-card performance">
+                    <h3><i class="fas fa-tachometer-alt"></i> PERFORMANCE METRICS</h3>
+                    <div class="metric-grid">
+                        <div class="metric">
+                            <div class="metric-value" id="accuracy-rate">--%</div>
+                            <div class="metric-label">Accuracy Rate</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value" id="response-time">--s</div>
+                            <div class="metric-label">Avg Response Time</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value" id="streak-days">0</div>
+                            <div class="metric-label">Day Streak</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value" id="checkride-score">--%</div>
+                            <div class="metric-label">Checkride Readiness</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="dashboard-card weak-areas">
+                    <h3><i class="fas fa-exclamation-triangle"></i> WEAK AREAS IDENTIFIED</h3>
+                    <div class="weak-areas-list" id="weak-areas-list">
+                        <!-- Weak areas will be dynamically loaded -->
+                    </div>
+                </div>
+                
+                <div class="dashboard-card recommendations">
+                    <h3><i class="fas fa-lightbulb"></i> MISSION RECOMMENDATIONS</h3>
+                    <div class="recommendations-list" id="recommendations-list">
+                        <!-- Recommendations will be dynamically loaded -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Mission Footer -->
+    <footer class="mission-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>MISSION CONTROL</h4>
+                    <p>Adventure Aviator: The Blue Book</p>
+                    <p>Version 1.0 • Mission 007</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>SAFETY FIRST</h4>
+                    <p>FAA ACS Compliant</p>
+                    <p>Emergency Procedures Integrated</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>INTELLIGENCE</h4>
+                    <p>336 Question Bank</p>
+                    <p>48 Daily Rotation</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>CONTACT</h4>
+                    <p>Mission Support: support@adventureaviator.com</p>
+                    <p>Emergency: 911 (For actual emergencies only)</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="security-notice">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>SECURITY CLEARANCE: ALPHA • DATA ENCRYPTED • LOCAL STORAGE ONLY</span>
+                </div>
+                <div class="copyright">
+                    &copy; 2026 Adventure Aviator. All rights reserved. Fly safe.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="scripts/config.js"></script>
+    <script src="scripts/modules.js"></script>
+    <script src="scripts/questions.js"></script>
+    <script src="scripts/training.js"></script>
+    <script src="scripts/analytics.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
