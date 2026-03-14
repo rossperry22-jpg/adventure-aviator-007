@@ -1,8 +1,4 @@
-// Adventure Aviator Question Bank
-// Total questions: 336
-// Generated on: 2026-03-14
-
-const QUESTION_BANK = [
+[
   {
     "id": 301,
     "module": "00",
@@ -7364,12 +7360,4 @@ const QUESTION_BANK = [
       "07"
     ]
   }
-];
-
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = QUESTION_BANK;
-}
-
-if (typeof window !== 'undefined') {
-    window.QUESTION_BANK = QUESTION_BANK;
-}
+]
