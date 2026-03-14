@@ -1,7 +1,5 @@
-// Adventure Aviator Question Bank
-// Generated from existing questions
-
-const QUESTION_BANK = [
+--- OBJECT 0 ---
+{
 id: 211,
         module: "05",
         question: "What is dead reckoning?",
@@ -17,7 +15,11 @@ id: 211,
         difficulty: "Medium",
         faaReference: "PHAK Ch. 16",
         tags: ["Dead Reckoning", "Navigation", "Planning"]
-    },
+    }
+
+
+--- OBJECT 1 ---
+
     {
         id: 212,
         module: "05",
@@ -34,7 +36,11 @@ id: 211,
         difficulty: "Medium",
         faaReference: "PHAK Ch. 16",
         tags: ["Magnetic Variation", "Compass", "Navigation"]
-    },
+    }
+
+
+--- OBJECT 2 ---
+
     {
         id: 213,
         module: "05",
@@ -51,7 +57,11 @@ id: 211,
         difficulty: "Medium",
         faaReference: "PHAK Ch. 16",
         tags: ["Magnetic Deviation", "Compass", "Errors"]
-    },
+    }
+
+
+--- OBJECT 3 ---
+
     {
         id: 214,
         module: "05",
@@ -68,7 +78,11 @@ id: 211,
         difficulty: "Easy",
         faaReference: "AIM Ch. 1",
         tags: ["VOR", "Navigation", "Radio"]
-    },
+    }
+
+
+--- OBJECT 4 ---
+
     {
         id: 215,
         module: "05",
@@ -85,7 +99,11 @@ id: 211,
         difficulty: "Medium",
         faaReference: "AIM Ch. 1",
         tags: ["VOR", "TO/FROM", "Navigation"]
-    },
+    }
+
+
+--- OBJECT 5 ---
+
     {
         id: 216,
         module: "05",
@@ -102,7 +120,11 @@ id: 211,
         difficulty: "Easy",
         faaReference: "AIM Ch. 9",
         tags: ["Sectional Chart", "VFR", "Navigation"]
-    },
+    }
+
+
+--- OBJECT 6 ---
+
     {
         id: 217,
         module: "05",
@@ -119,7 +141,11 @@ id: 211,
         difficulty: "Hard",
         faaReference: "AIM Ch. 5",
         tags: ["Airway", "Navigation", "Airspace"]
-    },
+    }
+
+
+--- OBJECT 7 ---
+
     {
         id: 218,
         module: "05",
@@ -136,7 +162,11 @@ id: 211,
         difficulty: "Medium",
         faaReference: "AIM Ch. 9",
         tags: ["TAC", "Charts", "Terminal"]
-    },
+    }
+
+
+--- OBJECT 8 ---
+
     {
         id: 219,
         module: "05",
@@ -153,7 +183,11 @@ id: 211,
         difficulty: "Easy",
         faaReference: "AIM Ch. 5",
         tags: ["Flight Plan", "Safety", "Planning"]
-    },
+    }
+
+
+--- OBJECT 9 ---
+
     {
         id: 220,
         module: "05",
@@ -170,7 +204,11 @@ id: 211,
         difficulty: "Easy",
         faaReference: "AIM Ch. 5",
         tags: ["NOTAM", "Information", "Safety"]
-    },
+    }
+
+
+--- OBJECT 10 ---
+{
     // Additional Module 05 questions would continue here...
     
     // Module 06: The Legal & Human Side (Questions 252-293)
@@ -190,7 +228,11 @@ id: 211,
         difficulty: "Medium",
         faaReference: "FAR 91.155",
         tags: ["Class G", "VFR", "Minimums"]
-    },
+    }
+
+
+--- OBJECT 11 ---
+
     {
         id: 253,
         module: "06",
@@ -207,7 +249,11 @@ id: 211,
         difficulty: "Medium",
         faaReference: "FAR 61.57",
         tags: ["Currency", "Passengers", "Requirements"]
-    },
+    }
+
+
+--- OBJECT 12 ---
+
     {
         id: 254,
         module: "06",
@@ -224,7 +270,11 @@ id: 211,
         difficulty: "Easy",
         faaReference: "FAR 61.23",
         tags: ["Medical", "Certificate", "Requirements"]
-    },
+    }
+
+
+--- OBJECT 13 ---
+
     {
         id: 255,
         module: "06",
@@ -241,7 +291,11 @@ id: 211,
         difficulty: "Easy",
         faaReference: "FAR 61.103",
         tags: ["Private Pilot", "Age", "Requirements"]
-    },
+    }
+
+
+--- OBJECT 14 ---
+
     {
         id: 256,
         module: "06",
@@ -258,7 +312,11 @@ id: 211,
         difficulty: "Medium",
         faaReference: "PHAK Ch. 17",
         tags: ["Hypoxia", "Human Factors", "Safety"]
-    },
+    }
+
+
+--- OBJECT 15 ---
+
     {
         id: 257,
         module: "06",
@@ -275,7 +333,11 @@ id: 211,
         difficulty: "Medium",
         faaReference: "PHAK Ch. 17",
         tags: ["Carbon Monoxide", "Poisoning", "Safety"]
-    },
+    }
+
+
+--- OBJECT 16 ---
+
     {
         id: 258,
         module: "06",
@@ -292,7 +354,11 @@ id: 211,
         difficulty: "Medium",
         faaReference: "PHAK Ch. 17",
         tags: ["Spatial Disorientation", "Human Factors", "IFR"]
-    },
+    }
+
+
+--- OBJECT 17 ---
+
     {
         id: 259,
         module: "06",
@@ -309,7 +375,11 @@ id: 211,
         difficulty: "Easy",
         faaReference: "FAR 91.113",
         tags: ["See and Avoid", "Collision Avoidance", "VFR"]
-    },
+    }
+
+
+--- OBJECT 18 ---
+
     {
         id: 260,
         module: "06",
@@ -326,7 +396,11 @@ id: 211,
         difficulty: "Easy",
         faaReference: "FAR 91.113",
         tags: ["Right-of-Way", "Rules", "Safety"]
-    },
+    }
+
+
+--- OBJECT 19 ---
+
     {
         id: 261,
         module: "06",
@@ -343,7 +417,11 @@ id: 211,
         difficulty: "Easy",
         faaReference: "FAR 91.113",
         tags: ["Right-of-Way", "Distress", "Emergency"]
-    },
+    }
+
+
+--- OBJECT 20 ---
+{
     // Additional Module 06 questions would continue here...
     
     // Module 07: Thinking Like a Pilot (Questions 294-335)
@@ -363,7 +441,11 @@ id: 211,
         difficulty: "Easy",
         faaReference: "ACS Introduction",
         tags: ["ACS", "Certification", "Standards"]
-    },
+    }
+
+
+--- OBJECT 21 ---
+
     {
         id: 295,
         module: "07",
@@ -380,7 +462,11 @@ id: 211,
         difficulty: "Medium",
         faaReference: "PHAK Ch. 2",
         tags: ["PAVE", "Risk Management", "ADM"]
-    },
+    }
+
+
+--- OBJECT 22 ---
+
     {
         id: 296,
         module: "07",
@@ -397,7 +483,11 @@ id: 211,
         difficulty: "Medium",
         faaReference: "PHAK Ch. 2",
         tags: ["DECIDE", "Decision Making", "ADM"]
-    },
+    }
+
+
+--- OBJECT 23 ---
+
     {
         id: 297,
         module: "07",
@@ -414,7 +504,11 @@ id: 211,
         difficulty: "Medium",
         faaReference: "AFH Ch. 16",
         tags: ["Lost Procedures", "Emergency", "VFR"]
-    },
+    }
+
+
+--- OBJECT 24 ---
+
     {
         id: 298,
         module: "07",
@@ -431,7 +525,11 @@ id: 211,
         difficulty: "Medium",
         faaReference: "AFH Ch. 7",
         tags: ["Engine Failure", "Emergency", "Takeoff"]
-    },
+    }
+
+
+--- OBJECT 25 ---
+
     {
         id: 299,
         module: "07",
@@ -448,7 +546,11 @@ id: 211,
         difficulty: "Easy",
         faaReference: "AFH Ch. 7",
         tags: ["Simulated Emergency", "Training", "Safety"]
-    },
+    }
+
+
+--- OBJECT 26 ---
+
     {
         id: 300,
         module: "07",
@@ -464,13 +566,6 @@ id: 211,
         category: "Takeoffs",
         difficulty: "Medium",
         faaReference
-];
 
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = QUESTION_BANK;
-}
 
-// For browser global
-if (typeof window !== 'undefined') {
-    window.QUESTION_BANK = QUESTION_BANK;
-}
+

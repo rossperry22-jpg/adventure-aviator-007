@@ -40,6 +40,149 @@
         </div>
     </header>
 
+    <!-- Staging Dashboard -->
+    <section id="staging-dashboard" class="staging-section">
+        <div class="container">
+            <div class="staging-header">
+                <h2><i class="fas fa-rocket"></i> STAGING DEPLOYMENT DASHBOARD</h2>
+                <div class="staging-status">
+                    <span class="status-indicator active"></span>
+                    <span class="status-text">LIVE STAGING • 96‑HOUR SPRINT</span>
+                    <span class="staging-version">v1.0.0-alpha</span>
+                </div>
+            </div>
+            
+            <div class="staging-grid">
+                <!-- Countdown Timer -->
+                <div class="staging-card countdown">
+                    <h3><i class="fas fa-clock"></i> SPRINT COUNTDOWN</h3>
+                    <div class="countdown-display">
+                        <div class="countdown-unit">
+                            <div class="unit-value" id="countdown-days">04</div>
+                            <div class="unit-label">DAYS</div>
+                        </div>
+                        <div class="countdown-separator">:</div>
+                        <div class="countdown-unit">
+                            <div class="unit-value" id="countdown-hours">00</div>
+                            <div class="unit-label">HOURS</div>
+                        </div>
+                        <div class="countdown-separator">:</div>
+                        <div class="countdown-unit">
+                            <div class="unit-value" id="countdown-minutes">00</div>
+                            <div class="unit-label">MINUTES</div>
+                        </div>
+                        <div class="countdown-separator">:</div>
+                        <div class="countdown-unit">
+                            <div class="unit-value" id="countdown-seconds">00</div>
+                            <div class="unit-label">SECONDS</div>
+                        </div>
+                    </div>
+                    <p class="countdown-note">Time remaining until staging completion</p>
+                </div>
+                
+                <!-- Progress Metrics -->
+                <div class="staging-card progress">
+                    <h3><i class="fas fa-chart-line"></i> DEVELOPMENT PROGRESS</h3>
+                    <div class="progress-metrics">
+                        <div class="progress-metric">
+                            <div class="metric-value" id="progress-completion">25%</div>
+                            <div class="metric-label">Overall Completion</div>
+                            <div class="metric-bar">
+                                <div class="bar-fill" style="width: 25%"></div>
+                            </div>
+                        </div>
+                        <div class="progress-metric">
+                            <div class="metric-value" id="modules-completed">2/8</div>
+                            <div class="metric-label">Modules Ready</div>
+                            <div class="metric-bar">
+                                <div class="bar-fill" style="width: 25%"></div>
+                            </div>
+                        </div>
+                        <div class="progress-metric">
+                            <div class="metric-value" id="questions-generated">27/336</div>
+                            <div class="metric-label">Questions Generated</div>
+                            <div class="metric-bar">
+                                <div class="bar-fill" style="width: 8%"></div>
+                            </div>
+                        </div>
+                        <div class="progress-metric">
+                            <div class="metric-value" id="velocity-score">42</div>
+                            <div class="metric-label">Velocity Score</div>
+                            <div class="metric-bar">
+                                <div class="bar-fill" style="width: 42%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Risk Indicators -->
+                <div class="staging-card risks">
+                    <h3><i class="fas fa-exclamation-triangle"></i> RISK INDICATORS</h3>
+                    <div class="risk-list">
+                        <div class="risk-item high">
+                            <div class="risk-icon"><i class="fas fa-times-circle"></i></div>
+                            <div class="risk-content">
+                                <div class="risk-title">Question Bank Incomplete</div>
+                                <div class="risk-desc">Only 27 of 336 questions generated</div>
+                            </div>
+                        </div>
+                        <div class="risk-item medium">
+                            <div class="risk-icon"><i class="fas fa-exclamation-circle"></i></div>
+                            <div class="risk-content">
+                                <div class="risk-title">Module 00-04 Missing</div>
+                                <div class="risk-desc">First 5 modules not yet implemented</div>
+                            </div>
+                        </div>
+                        <div class="risk-item low">
+                            <div class="risk-icon"><i class="fas fa-check-circle"></i></div>
+                            <div class="risk-content">
+                                <div class="risk-title">Staging Deployed</div>
+                                <div class="risk-desc">GitHub Pages live, basic architecture ready</div>
+                            </div>
+                        </div>
+                        <div class="risk-item low">
+                            <div class="risk-icon"><i class="fas fa-check-circle"></i></div>
+                            <div class="risk-content">
+                                <div class="risk-title">Design System Applied</div>
+                                <div class="risk-desc">007 theme implemented, responsive design</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Deployment Info -->
+                <div class="staging-card deployment">
+                    <h3><i class="fas fa-server"></i> DEPLOYMENT STATUS</h3>
+                    <div class="deployment-info">
+                        <div class="deployment-row">
+                            <div class="row-label">Environment:</div>
+                            <div class="row-value">Staging (GitHub Pages)</div>
+                        </div>
+                        <div class="deployment-row">
+                            <div class="row-label">URL:</div>
+                            <div class="row-value"><a href="https://rossperry22-jpg.github.io/adventure-aviator-007" target="_blank">rossperry22-jpg.github.io/adventure-aviator-007</a></div>
+                        </div>
+                        <div class="deployment-row">
+                            <div class="row-label">Last Deploy:</div>
+                            <div class="row-value" id="last-deploy">Just now</div>
+                        </div>
+                        <div class="deployment-row">
+                            <div class="row-label">Branch:</div>
+                            <div class="row-value">gh-pages (auto-deployed)</div>
+                        </div>
+                        <div class="deployment-row">
+                            <div class="row-label">Commit:</div>
+                            <div class="row-value" id="commit-hash">1d05595</div>
+                        </div>
+                    </div>
+                    <button class="btn-refresh" onclick="updateStagingDashboard()">
+                        <i class="fas fa-sync-alt"></i> Refresh Metrics
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Main Content -->
     <main class="container">
         <!-- Mission Briefing Section -->
@@ -317,5 +460,6 @@
     <script src="scripts/training.js"></script>
     <script src="scripts/analytics.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/staging-dashboard.js"></script>
 </body>
 </html>

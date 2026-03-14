@@ -1,0 +1,565 @@
+[
+  {
+    "id": 211,
+    "module": "05",
+    "question": "What is dead reckoning?",
+    "options": [
+      "Navigation using only GPS",
+      "Navigation by calculating direction and distance from a known position",
+      "Following another aircraft",
+      "Navigation using radar vectors"
+    ],
+    "correct": 1,
+    "explanation": "Dead reckoning involves calculating position based on known starting point, heading, airspeed, time, and wind.",
+    "category": "Navigation",
+    "difficulty": "Medium",
+    "faaReference": "PHAK Ch. 16",
+    "tags": [
+      "Dead Reckoning",
+      "Navigation",
+      "Planning"
+    ]
+  },
+  {
+    "id": 212,
+    "module": "05",
+    "question": "What is magnetic variation?",
+    "options": [
+      "Difference between true north and magnetic north",
+      "Compass deviation due to aircraft electronics",
+      "Change in magnetic field during flight",
+      "Error in GPS signal"
+    ],
+    "correct": 0,
+    "explanation": "Magnetic variation is the angular difference between true north (geographic) and magnetic north (compass).",
+    "category": "Navigation",
+    "difficulty": "Medium",
+    "faaReference": "PHAK Ch. 16",
+    "tags": [
+      "Magnetic Variation",
+      "Compass",
+      "Navigation"
+    ]
+  },
+  {
+    "id": 213,
+    "module": "05",
+    "question": "What is magnetic deviation?",
+    "options": [
+      "Difference between true and magnetic north",
+      "Compass error caused by aircraft's magnetic fields",
+      "GPS position error",
+      "Pilot calculation error"
+    ],
+    "correct": 1,
+    "explanation": "Magnetic deviation is compass error caused by magnetic fields within the aircraft (corrected with a deviation card).",
+    "category": "Navigation",
+    "difficulty": "Medium",
+    "faaReference": "PHAK Ch. 16",
+    "tags": [
+      "Magnetic Deviation",
+      "Compass",
+      "Errors"
+    ]
+  },
+  {
+    "id": 214,
+    "module": "05",
+    "question": "What is a VOR?",
+    "options": [
+      "Visual Omni Range",
+      "VHF Omnidirectional Range",
+      "Vertical Orientation Reference",
+      "Variable Omni Radar"
+    ],
+    "correct": 1,
+    "explanation": "VOR is a VHF Omnidirectional Range navigation aid that provides radial information from the station.",
+    "category": "Navigation Aids",
+    "difficulty": "Easy",
+    "faaReference": "AIM Ch. 1",
+    "tags": [
+      "VOR",
+      "Navigation",
+      "Radio"
+    ]
+  },
+  {
+    "id": 215,
+    "module": "05",
+    "question": "What does 'TO/FROM' indication on a VOR show?",
+    "options": [
+      "Distance to station",
+      "Whether you're flying toward or away from the selected radial",
+      "Signal strength",
+      "Ground speed"
+    ],
+    "correct": 1,
+    "explanation": "TO/FROM indicates whether you would intercept the selected radial flying toward (TO) or away (FROM) the station.",
+    "category": "Navigation Aids",
+    "difficulty": "Medium",
+    "faaReference": "AIM Ch. 1",
+    "tags": [
+      "VOR",
+      "TO/FROM",
+      "Navigation"
+    ]
+  },
+  {
+    "id": 216,
+    "module": "05",
+    "question": "What is a sectional chart?",
+    "options": [
+      "Chart for instrument approaches",
+      "Chart for VFR navigation showing topography, airspace, and landmarks",
+      "Chart for weight and balance",
+      "Chart for performance calculations"
+    ],
+    "correct": 1,
+    "explanation": "Sectional charts are designed for VFR navigation, showing topography, airspace, airports, navigation aids, and other landmarks.",
+    "category": "Charts",
+    "difficulty": "Easy",
+    "faaReference": "AIM Ch. 9",
+    "tags": [
+      "Sectional Chart",
+      "VFR",
+      "Navigation"
+    ]
+  },
+  {
+    "id": 217,
+    "module": "05",
+    "question": "What is the standard width of a Federal airway?",
+    "options": [
+      "4 nautical miles either side of centerline",
+      "8 nautical miles total width",
+      "10 nautical miles either side",
+      "Varies by altitude"
+    ],
+    "correct": 1,
+    "explanation": "Federal airways are 8 nautical miles wide (4 NM either side of centerline) from 1,200' AGL up to but not including 18,000' MSL.",
+    "category": "Airspace",
+    "difficulty": "Hard",
+    "faaReference": "AIM Ch. 5",
+    "tags": [
+      "Airway",
+      "Navigation",
+      "Airspace"
+    ]
+  },
+  {
+    "id": 218,
+    "module": "05",
+    "question": "What is a TAC (Terminal Area Chart)?",
+    "options": [
+      "Chart for terminal instrument procedures",
+      "Large-scale chart for busy terminal areas",
+      "Chart for transatlantic crossings",
+      "Chart for weight and balance"
+    ],
+    "correct": 1,
+    "explanation": "TACs provide large-scale detail for busy terminal areas, showing more detail than sectional charts for complex airspace.",
+    "category": "Charts",
+    "difficulty": "Medium",
+    "faaReference": "AIM Ch. 9",
+    "tags": [
+      "TAC",
+      "Charts",
+      "Terminal"
+    ]
+  },
+  {
+    "id": 219,
+    "module": "05",
+    "question": "What is the purpose of a flight plan?",
+    "options": [
+      "Required for all VFR flights",
+      "Provides search and rescue information if needed",
+      "Only needed for IFR flights",
+      "For fuel calculations only"
+    ],
+    "correct": 1,
+    "explanation": "A flight plan (especially VFR) provides crucial information for search and rescue if you don't arrive as scheduled.",
+    "category": "Flight Planning",
+    "difficulty": "Easy",
+    "faaReference": "AIM Ch. 5",
+    "tags": [
+      "Flight Plan",
+      "Safety",
+      "Planning"
+    ]
+  },
+  {
+    "id": 220,
+    "module": "05",
+    "question": "What is a NOTAM?",
+    "options": [
+      "Notice to Air Missions",
+      "Notice to Airmen",
+      "Navigation and Operational Temporary Advisory Message",
+      "Notice of Temporary Airspace Modification"
+    ],
+    "correct": 1,
+    "explanation": "NOTAMs (Notice to Airmen) provide time-critical information on hazards, changes, or important activities.",
+    "category": "Information",
+    "difficulty": "Easy",
+    "faaReference": "AIM Ch. 5",
+    "tags": [
+      "NOTAM",
+      "Information",
+      "Safety"
+    ]
+  },
+  {
+    "id": 252,
+    "module": "06",
+    "question": "What is the minimum visibility and cloud clearance for VFR in Class G at 1,200' AGL or above?",
+    "options": [
+      "1SM, clear of clouds",
+      "3SM, 500' below, 1,000' above, 2,000' horizontal",
+      "5SM, 1,000' below, 1,000' above, 1SM horizontal",
+      "1SM, 500' below, 1,000' above, 2,000' horizontal"
+    ],
+    "correct": 1,
+    "explanation": "Class G (1,200' AGL and above): 3SM visibility, 500' below, 1,000' above, 2,000' horizontal cloud clearance.",
+    "category": "VFR Minimums",
+    "difficulty": "Medium",
+    "faaReference": "FAR 91.155",
+    "tags": [
+      "Class G",
+      "VFR",
+      "Minimums"
+    ]
+  },
+  {
+    "id": 253,
+    "module": "06",
+    "question": "What is the currency requirement for carrying passengers?",
+    "options": [
+      "3 takeoffs and landings in last 90 days",
+      "3 takeoffs and landings to a full stop in same category/class in last 90 days",
+      "5 hours in last 90 days",
+      "Flight review within 24 months"
+    ],
+    "correct": 1,
+    "explanation": "To carry passengers: 3 takeoffs and landings to a full stop in the same category/class within preceding 90 days.",
+    "category": "Currency",
+    "difficulty": "Medium",
+    "faaReference": "FAR 61.57",
+    "tags": [
+      "Currency",
+      "Passengers",
+      "Requirements"
+    ]
+  },
+  {
+    "id": 254,
+    "module": "06",
+    "question": "How long is a third-class medical certificate valid for a pilot under 40?",
+    "options": [
+      "12 calendar months",
+      "24 calendar months",
+      "36 calendar months",
+      "60 calendar months"
+    ],
+    "correct": 3,
+    "explanation": "Third-class medical: Under 40 = 60 calendar months, 40 and over = 24 calendar months.",
+    "category": "Medical",
+    "difficulty": "Easy",
+    "faaReference": "FAR 61.23",
+    "tags": [
+      "Medical",
+      "Certificate",
+      "Requirements"
+    ]
+  },
+  {
+    "id": 255,
+    "module": "06",
+    "question": "What is the minimum age for a private pilot certificate?",
+    "options": [
+      "16 years",
+      "17 years",
+      "18 years",
+      "21 years"
+    ],
+    "correct": 1,
+    "explanation": "Private pilot certificate requires minimum age of 17 years (16 for glider or balloon).",
+    "category": "Certification",
+    "difficulty": "Easy",
+    "faaReference": "FAR 61.103",
+    "tags": [
+      "Private Pilot",
+      "Age",
+      "Requirements"
+    ]
+  },
+  {
+    "id": 256,
+    "module": "06",
+    "question": "What is hypoxia?",
+    "options": [
+      "Low blood sugar",
+      "Oxygen deficiency in the body",
+      "High carbon monoxide levels",
+      "Dehydration"
+    ],
+    "correct": 1,
+    "explanation": "Hypoxia is insufficient oxygen reaching body tissues, impairing judgment and performance.",
+    "category": "Human Factors",
+    "difficulty": "Medium",
+    "faaReference": "PHAK Ch. 17",
+    "tags": [
+      "Hypoxia",
+      "Human Factors",
+      "Safety"
+    ]
+  },
+  {
+    "id": 257,
+    "module": "06",
+    "question": "What are symptoms of carbon monoxide poisoning?",
+    "options": [
+      "Headache, dizziness, nausea",
+      "Euphoria, improved vision",
+      "Increased alertness",
+      "No symptoms until unconscious"
+    ],
+    "correct": 0,
+    "explanation": "CO poisoning symptoms: headache, dizziness, nausea, cherry-red lips/nails, confusion. Often mistaken for other illnesses.",
+    "category": "Human Factors",
+    "difficulty": "Medium",
+    "faaReference": "PHAK Ch. 17",
+    "tags": [
+      "Carbon Monoxide",
+      "Poisoning",
+      "Safety"
+    ]
+  },
+  {
+    "id": 258,
+    "module": "06",
+    "question": "What is spatial disorientation?",
+    "options": [
+      "Forgetting where you are",
+      "Inability to determine position relative to the earth",
+      "Lost communication",
+      "Navigation equipment failure"
+    ],
+    "correct": 1,
+    "explanation": "Spatial disorientation is the inability to determine position, attitude, or motion relative to the earth. Trust your instruments!",
+    "category": "Human Factors",
+    "difficulty": "Medium",
+    "faaReference": "PHAK Ch. 17",
+    "tags": [
+      "Spatial Disorientation",
+      "Human Factors",
+      "IFR"
+    ]
+  },
+  {
+    "id": 259,
+    "module": "06",
+    "question": "What is the 'see and avoid' concept?",
+    "options": [
+      "Look for traffic only when ATC advises",
+      "Primary means of collision avoidance in VFR",
+      "Only applicable in Class B airspace",
+      "Using TCAS to avoid traffic"
+    ],
+    "correct": 1,
+    "explanation": "'See and avoid' is the primary method for collision avoidance in VFR conditions (FAR 91.113).",
+    "category": "Procedures",
+    "difficulty": "Easy",
+    "faaReference": "FAR 91.113",
+    "tags": [
+      "See and Avoid",
+      "Collision Avoidance",
+      "VFR"
+    ]
+  },
+  {
+    "id": 260,
+    "module": "06",
+    "question": "What is the right-of-way rule for aircraft approaching head-on?",
+    "options": [
+      "Aircraft on left gives way",
+      "Aircraft on right gives way",
+      "Both alter course to right",
+      "Lower aircraft has right-of-way"
+    ],
+    "correct": 2,
+    "explanation": "Aircraft approaching head-on: each shall alter course to the right (FAR 91.113).",
+    "category": "Right-of-Way",
+    "difficulty": "Easy",
+    "faaReference": "FAR 91.113",
+    "tags": [
+      "Right-of-Way",
+      "Rules",
+      "Safety"
+    ]
+  },
+  {
+    "id": 261,
+    "module": "06",
+    "question": "Which aircraft has right-of-way over all other engine-driven aircraft?",
+    "options": [
+      "Faster aircraft",
+      "Aircraft in distress",
+      "Aircraft on final approach",
+      "Aircraft towing another"
+    ],
+    "correct": 1,
+    "explanation": "An aircraft in distress has the right-of-way over all other air traffic (FAR 91.113).",
+    "category": "Right-of-Way",
+    "difficulty": "Easy",
+    "faaReference": "FAR 91.113",
+    "tags": [
+      "Right-of-Way",
+      "Distress",
+      "Emergency"
+    ]
+  },
+  {
+    "id": 294,
+    "module": "07",
+    "question": "What is the purpose of the ACS?",
+    "options": [
+      "To make checkrides more difficult",
+      "To standardize testing and define what pilots must know, consider, and do",
+      "To replace the need for flight instructors",
+      "To document aircraft performance"
+    ],
+    "correct": 1,
+    "explanation": "The ACS (Airman Certification Standards) defines the standards for certification, replacing the PTS with a more comprehensive framework.",
+    "category": "Certification",
+    "difficulty": "Easy",
+    "faaReference": "ACS Introduction",
+    "tags": [
+      "ACS",
+      "Certification",
+      "Standards"
+    ]
+  },
+  {
+    "id": 295,
+    "module": "07",
+    "question": "What are the three components of risk management in the PAVE checklist?",
+    "options": [
+      "Pilot, Aircraft, enVironment, External pressures",
+      "Planning, Aviation, Verification, Execution",
+      "Performance, Altitude, Velocity, Energy",
+      "Pitch, Airspeed, Vertical speed, Elevation"
+    ],
+    "correct": 0,
+    "explanation": "PAVE: Pilot, Aircraft, enVironment, External pressures - a risk assessment tool for preflight planning.",
+    "category": "Risk Management",
+    "difficulty": "Medium",
+    "faaReference": "PHAK Ch. 2",
+    "tags": [
+      "PAVE",
+      "Risk Management",
+      "ADM"
+    ]
+  },
+  {
+    "id": 296,
+    "module": "07",
+    "question": "What is the DECIDE model used for?",
+    "options": [
+      "Weight and balance calculations",
+      "In-flight decision making",
+      "Navigation planning",
+      "Weather interpretation"
+    ],
+    "correct": 1,
+    "explanation": "DECIDE: Detect, Estimate, Choose, Identify, Do, Evaluate - a decision-making model for in-flight situations.",
+    "category": "Decision Making",
+    "difficulty": "Medium",
+    "faaReference": "PHAK Ch. 2",
+    "tags": [
+      "DECIDE",
+      "Decision Making",
+      "ADM"
+    ]
+  },
+  {
+    "id": 297,
+    "module": "07",
+    "question": "What should you do if you become lost during VFR flight?",
+    "options": [
+      "Descend for better visibility",
+      "Climb for better radio reception",
+      "Follow the 'Four C's': Climb, Communicate, Confess, Comply",
+      "Continue on current heading"
+    ],
+    "correct": 2,
+    "explanation": "Four C's: Climb (better visibility/radio), Communicate (ATC on 121.5 or appropriate frequency), Confess (tell them you're lost), Comply (follow instructions).",
+    "category": "Emergency Procedures",
+    "difficulty": "Medium",
+    "faaReference": "AFH Ch. 16",
+    "tags": [
+      "Lost Procedures",
+      "Emergency",
+      "VFR"
+    ]
+  },
+  {
+    "id": 298,
+    "module": "07",
+    "question": "What is the first action in engine failure after takeoff?",
+    "options": [
+      "Declare emergency",
+      "Establish best glide speed",
+      "Attempt restart",
+      "Look for landing spot"
+    ],
+    "correct": 1,
+    "explanation": "First: Establish and maintain best glide speed to maximize options. Then: Find landing spot, attempt restart, prepare for landing.",
+    "category": "Emergency Procedures",
+    "difficulty": "Medium",
+    "faaReference": "AFH Ch. 7",
+    "tags": [
+      "Engine Failure",
+      "Emergency",
+      "Takeoff"
+    ]
+  },
+  {
+    "id": 299,
+    "module": "07",
+    "question": "What is the purpose of a simulated engine failure during training?",
+    "options": [
+      "To scare the student",
+      "To practice emergency procedures in a controlled environment",
+      "To save fuel",
+      "To test the engine"
+    ],
+    "correct": 1,
+    "explanation": "Simulated failures allow practice of emergency procedures without actual danger, building muscle memory and confidence.",
+    "category": "Training",
+    "difficulty": "Easy",
+    "faaReference": "AFH Ch. 7",
+    "tags": [
+      "Simulated Emergency",
+      "Training",
+      "Safety"
+    ]
+  },
+  {
+    "id": 300,
+    "module": "07",
+    "question": "What is a 'soft-field' takeoff technique?",
+    "options": [
+      "Using minimum power",
+      "Lifting nosewheel early to reduce drag on soft surfaces",
+      "Taking off with flaps retracted",
+      "Using maximum brake during takeoff roll"
+    ],
+    "correct": 1,
+    "explanation": "Soft-field: Nosewheel lifted early to reduce drag and prevent digging in on grass, sand, or snow.",
+    "category": "Takeoffs",
+    "difficulty": "Medium",
+    "faaReference": "",
+    "tags": []
+  }
+]

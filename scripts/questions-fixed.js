@@ -1,7 +1,4 @@
-// Adventure Aviator Question Bank
-// Generated from existing questions
-
-const QUESTION_BANK = [
+[
 id: 211,
         module: "05",
         question: "What is dead reckoning?",
@@ -464,13 +461,4 @@ id: 211,
         category: "Takeoffs",
         difficulty: "Medium",
         faaReference
-];
-
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = QUESTION_BANK;
-}
-
-// For browser global
-if (typeof window !== 'undefined') {
-    window.QUESTION_BANK = QUESTION_BANK;
-}
+]
