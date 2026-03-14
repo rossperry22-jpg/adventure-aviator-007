@@ -1,0 +1,112 @@
+Error evaluating: Unexpected token ':'
+Failed to parse object: 
+Failed to parse object:     {
+        id: 212,
+        module: "05",
+        question: "What is magnetic variation?",
+      
+Failed to parse object:     {
+        id: 213,
+        module: "05",
+        question: "What is magnetic deviation?",
+      
+Failed to parse object:     {
+        id: 214,
+        module: "05",
+        question: "What is a VOR?",
+        options: [
+
+Failed to parse object:     {
+        id: 215,
+        module: "05",
+        question: "What does 'TO/FROM' indication on a 
+Failed to parse object:     {
+        id: 216,
+        module: "05",
+        question: "What is a sectional chart?",
+       
+Failed to parse object:     {
+        id: 217,
+        module: "05",
+        question: "What is the standard width of a Fede
+Failed to parse object:     {
+        id: 218,
+        module: "05",
+        question: "What is a TAC (Terminal Area Chart)?
+Failed to parse object:     {
+        id: 219,
+        module: "05",
+        question: "What is the purpose of a flight plan
+Failed to parse object:     {
+        id: 220,
+        module: "05",
+        question: "What is a NOTAM?",
+        options: 
+Failed to parse object:     {
+        id: 252,
+        module: "06",
+        question: "What is the minimum visibility and c
+Failed to parse object:     {
+        id: 253,
+        module: "06",
+        question: "What is the currency requirement for
+Failed to parse object:     {
+        id: 254,
+        module: "06",
+        question: "How long is a third-class medical ce
+Failed to parse object:     {
+        id: 255,
+        module: "06",
+        question: "What is the minimum age for a privat
+Failed to parse object:     {
+        id: 256,
+        module: "06",
+        question: "What is hypoxia?",
+        options: 
+Failed to parse object:     {
+        id: 257,
+        module: "06",
+        question: "What are symptoms of carbon monoxide
+Failed to parse object:     {
+        id: 258,
+        module: "06",
+        question: "What is spatial disorientation?",
+  
+Failed to parse object:     {
+        id: 259,
+        module: "06",
+        question: "What is the 'see and avoid' concept?
+Failed to parse object:     {
+        id: 260,
+        module: "06",
+        question: "What is the right-of-way rule for ai
+Failed to parse object:     {
+        id: 261,
+        module: "06",
+        question: "Which aircraft has right-of-way over
+Failed to parse object:     {
+        id: 294,
+        module: "07",
+        question: "What is the purpose of the ACS?",
+  
+Failed to parse object:     {
+        id: 295,
+        module: "07",
+        question: "What are the three components of ris
+Failed to parse object:     {
+        id: 296,
+        module: "07",
+        question: "What is the DECIDE model used for?",
+Failed to parse object:     {
+        id: 297,
+        module: "07",
+        question: "What should you do if you become los
+Failed to parse object:     {
+        id: 298,
+        module: "07",
+        question: "What is the first action in engine f
+Failed to parse object:     {
+        id: 299,
+        module: "07",
+        question: "What is the purpose of a simulated e
+[]
